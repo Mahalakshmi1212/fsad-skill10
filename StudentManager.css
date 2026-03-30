@@ -1,0 +1,38 @@
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+width: 650px;
+background: #ffffff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+text-align: center;
+}
+.form {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}
+input {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+button {
+padding: 10px;
+background: #4a90e2;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.delete {
+background: red;
+}
